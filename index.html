@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz de JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favico.jpg">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <h1 id="welcome-text">¡Bienvenido al Quiz de JavaScript!</h1>
+        <input type="text" id="player-name" placeholder="Ingresa tu nombre">
+        <button id="start-button">Iniciar Quiz</button>
+        <h2 class="quiz-question" id="question"></h2>
+        <div class="options" id="options"></div>
+        <button id="next-button">Siguiente pregunta</button>
+        <button id="score-button">Ver puntuaciones</button>
+        <div id="score"></div>
+        <p id="correct-answer" style="display: none;"></p>
+        <div id="result"></div>
+        <button id="reset-button" style="display: none;">Reiniciar Quiz</button>
+        <div id="scores-display"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-question, .options, #next-button, #score {
+    display: none;
+}
+
+.quiz-container {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.quiz-question {
+    font-size: 1.5em;
+}
+
+.options label {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.options label:hover {
+    background: #f9f9f9;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+p {
+    font-size: 22px;
+}
